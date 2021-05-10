@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&family=Lobster&display=swap");
+
+.sidebar-toggle {
+  padding-right: 1.25rem;
+  text-decoration: none;
+  color: var(--text-hint-color);
+  font-size: 3.5rem;
+}
+.head {
+  color: rgba(212, 176, 127, 0.884);
+  font-family: "Lacquer", cursive;
+  font-size: 3rem;
+}

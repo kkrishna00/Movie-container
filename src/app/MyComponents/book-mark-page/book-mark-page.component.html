@@ -1,0 +1,40 @@
+<h1>SEE YOUR BOOKMARKED MOVIES</h1>
+<div *ngFor="let movie of bookMarkedMovie">
+  <nb-card>
+    <nb-card-header>
+      <!-- //HEADING OF THE MOVIE -->
+      <h1>
+        {{ movie.Title }}
+      </h1>
+    </nb-card-header>
+    <nb-card-body>
+      <!-- //MOVIE DETAILS  -->
+      <div class="MovieList">
+        <img src="{{ movie.Poster }}" alt="" class="poster" />
+        <ul class="listofmovies">
+          <li class="List">
+            <h4>{{ movie.Title }}</h4>
+          </li>
+          <li class="List">Genre: {{ movie.Genre }}</li>
+          <li class="List">Actors: {{ movie.Actors }}</li>
+          <li class="List">Director: {{ movie.Director }}</li>
+          <li class="List">Release Date: {{ movie.Released }}</li>
+          <li class="List">Rating: {{ movie.imdbRating }}</li>
+          <li class="List">Country: {{ movie.Country }}</li>
+          <li class="List">Plot: {{ movie.Plot }}</li>
+        </ul>
+      </div>
+
+      <!-- //BUTTON TO DELETE BOOKMARKED MOVIE  -->
+      <button
+        nbButton
+        status="primary"
+        outline
+        fullWidth
+        (click)="deleteThisMovie(movie)"
+      >
+        <nb-icon icon="trash-2-outline"></nb-icon>DELETE THIS MOVIE
+      </button>
+    </nb-card-body>
+  </nb-card>
+</div>

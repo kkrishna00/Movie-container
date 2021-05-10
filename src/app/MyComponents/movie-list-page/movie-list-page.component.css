@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&family=Lobster&display=swap");
+
+.give-margin {
+  margin-top: 10px;
+  text-align: center;
+}
+.search-input {
+  text-align: center;
+}
+:host {
+  display: block;
+  max-height: 35rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.card-row {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+
+.card-col {
+  flex: 1 0 calc(50% - 1rem);
+  margin: 0 0.5rem;
+}
+
+/* style movie list */
+.MovieList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px 12px;
+  padding: 5px 5px;
+  color: #687fff;
+}
+
+.heading {
+  color: rgba(21, 230, 230, 0.521);
+  font-family: "Lacquer", cursive;
+}
+h4 {
+  color: #b5b0ff;
+  font-weight: bold;
+  font-family: "Lacquer", cursive;
+}
+
+/* style movie details */
+.List {
+  margin: 2px 2px;
+  font-size: 1.3rem;
+  margin: 15px 10px;
+  padding: 5px 5px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #bb71ff;
+  font-weight: bold;
+  font-family: "Lacquer", cursive;
+  list-style: none;
+}

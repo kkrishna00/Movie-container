@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&family=Lobster&display=swap");
+
+h1 {
+  color: rgba(21, 230, 230, 0.521);
+  font-family: "Lacquer", cursive;
+}
+h3 {
+  font-family: "Lacquer", cursive;
+  color: rgba(21, 230, 230, 0.521);
+}
+p {
+  font-size: 1.3rem;
+  font-family: "Lobster", cursive;
+  color: rgba(133, 174, 252, 0.527);
+}
